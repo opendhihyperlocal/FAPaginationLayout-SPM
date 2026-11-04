@@ -36,7 +36,7 @@ Each swipe snaps to the next cell, and the neighbouring cells peek in from the s
 **Xcode:** File → Add Package Dependencies… and enter:
 
 ```
-https://github.com/abhishekpundir-arch/FAPaginationLayout-SPM.git
+https://github.com/opendhihyperlocal/FAPaginationLayout-SPM.git
 ```
 
 Choose version `1.0.0` or later, then add the **FAPaginationLayout** library to your app target.
@@ -45,7 +45,7 @@ Choose version `1.0.0` or later, then add the **FAPaginationLayout** library to 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/abhishekpundir-arch/FAPaginationLayout-SPM.git", from: "1.0.0")
+    .package(url: "https://github.com/opendhihyperlocal/FAPaginationLayout-SPM.git", from: "1.0.0")
 ],
 targets: [
     .target(
@@ -60,7 +60,7 @@ targets: [
 ### CocoaPods
 
 ```ruby
-pod 'FAPaginationLayout', :git => 'https://github.com/abhishekpundir-arch/FAPaginationLayout-SPM.git', :tag => '1.0.0'
+pod 'FAPaginationLayout', :git => 'https://github.com/opendhihyperlocal/FAPaginationLayout-SPM.git', :tag => '1.0.0'
 ```
 
 ## Usage
@@ -162,7 +162,7 @@ Open `FAPaginationLayout.xcodeproj` to run the demo app. It shows all three styl
 
 ## Maintainer
 
-[abhishekpundir-arch](https://github.com/abhishekpundir-arch)
+[opendhihyperlocal](https://github.com/opendhihyperlocal)
 
 ## License
 
